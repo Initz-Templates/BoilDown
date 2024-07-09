@@ -1,27 +1,39 @@
-# Clips
+## Try on Initializ
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+## On Dev 
+[![Kubeday India](https://res.cloudinary.com/daosik5yi/image/upload/f_auto,q_auto/pntsnjpa1sxbc2d02q9n)](https://console.dev.initializ.ai/create-app/?clone=https://github.com/initializ-templates/BoilDown&repo_name=BoilDown&description=♾%20BoilDown%20is%20an%20Angular%20app%20for%20uploading%20and%20watching%20game%20Skives,%20featuring%20WebAssembly%20with%20FFmpeg%20for%20generating%20video%20thumbnails.&github=true)
 
-## Development server
+## On Prod 
+[![Kubeday India](https://res.cloudinary.com/daosik5yi/image/upload/f_auto,q_auto/pntsnjpa1sxbc2d02q9n)](https://console.initializ.ai/create-app/?clone=https://github.com/initializ-templates/BoilDown&repo_name=BoilDown&description=♾%20BoilDown%20is%20an%20Angular%20app%20for%20uploading%20and%20watching%20game%20Skives,%20featuring%20WebAssembly%20with%20FFmpeg%20for%20generating%20video%20thumbnails.&github=true)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prerequisite 
+### Must have an Account on [Initializ.ai](https://console.initializ.ai/register/)<br><br>
 
-## Code scaffolding
+#### Steps to Create Account
+ Step 1: [SignUp](https://console.initializ.ai/register/) <br>
+ <br>[![Sign Up](https://res.cloudinary.com/dd4xje8fc/image/upload/v1717773727/image_1_eaxyhp.png)](https://console.initializ.ai/register/)<br><br>
+ Step 2: Verify Your Email<br><br>
+ Step 3: [Sign In](https://console.initializ.ai/login/) <br><br>[![Sign In](https://res.cloudinary.com/dd4xje8fc/image/upload/v1717773726/image_2_pi56ah.png)](https://console.initializ.ai/login/)<br><br>
+ Step 4: [Deploy on Initializ](https://console.initializ.ai/create-app/?clone=https://github.com/initializ-templates/BoilDown&repo_name=BoilDown&description=♾%20BoilDown%20is%20an%20Angular%20app%20for%20uploading%20and%20watching%20game%20Skives,%20featuring%20WebAssembly%20with%20FFmpeg%20for%20generating%20video%20thumbnails.&github=true)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## How To Use 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+From your command line, clone and run BoilDown:
 
-## Running unit tests
+```bash
+# Clone this repository
+git clone https://github.com/initializ-templates/BoilDown.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Go into the repository
+cd BoilDown
 
-## Running end-to-end tests
+# Setup default environment variables
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# For Linux
+cp env.example .env
+# For Windows
+copy env.example .env
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Install dependencies
+npm install
